@@ -5,3 +5,8 @@ function reverseStr(str){
   var strJoin = strArr.join("");
   return strJoin
 }
+
+// Count Characters: Create a function that counts the number of characters in a string.
+function countChar(str){
+  return str.length;
+}
