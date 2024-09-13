@@ -73,3 +73,16 @@ function primeNum(num){
       }
   }
 }
+
+// Fibonacci Sequence: Implement a function to generate the Fibonacci sequence up to a given number of terms.
+function fibonacci(num){
+  var a = 0;
+  var b = 1;
+  if (num == 0) return a;
+  for (var i = 2; i<=num; i++){
+      var c = a + b;
+      a = b;
+      b = c;
+  }
+  return b
+}
