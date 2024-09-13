@@ -49,3 +49,12 @@ function filterArr(arr) {
   }
   return arr;
 }
+
+// Factorial: Write a function to calculate the factorial of a given number.
+function factorial(num){
+  var fac = 1
+  for(var f = 1; f <= num; f++){
+      fac *= f
+  }
+  return fac
+}
