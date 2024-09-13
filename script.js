@@ -30,3 +30,12 @@ function minMax(arr){
   }
   return {min, max}
 }
+
+// Sum of Array: Create a function that calculates the sum of all elements in an array.
+function sumArr(arr){
+  var sum = 0;
+  for(let item of arr){
+      sum += item
+  }
+  return sum
+}
