@@ -58,3 +58,18 @@ function factorial(num){
   }
   return fac
 }
+
+// Prime Number Check: Create a function to check if a number is prime or not.
+function primeNum(num){
+  for (var i = 2; i <= num-1;i++){
+      if(num % i == 0){
+          break 
+      }
+      else if(i == num){
+          return `${num} is prime`;
+      }
+      else{
+          return `${num} is not prime`;
+      }
+  }
+}
