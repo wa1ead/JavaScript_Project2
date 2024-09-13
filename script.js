@@ -15,3 +15,18 @@ function countChar(str){
 function capWord(str){
   return str[0].toUpperCase() + str.slice(1);
 }
+
+// Find Maximum and Minimum: Write functions to find the maximum and minimum values in an array of numbers.
+function minMax(arr){
+  var min = Infinity;
+  var max = -Infinity;
+  for(let item of arr){
+      if(item > max){
+          max = item;
+      }
+      if(item < min){
+          min = item;
+      }
+  }
+  return {min, max}
+}
